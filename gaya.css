@@ -1,0 +1,106 @@
+.jj{
+    background-color: grey;
+    margin-top: 20%;
+    
+}
+
+
+h1{
+	font-size: 20px;
+	color: blue;
+	margin-top:0%;
+}
+.container{
+	background-color: grey;
+	width:50%;
+	font-family: italic;
+
+}
+.segitiga{
+		background-color:blue;
+	}
+ 
+	.segitiga ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+ 
+	.segitiga > ul > li {
+		float: left;
+	}
+ 
+	
+	.segitiga li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+ 
+	.segitiga li a:hover{
+		background-color: #2525ff;
+	}
+ 
+	li.dropdown {
+		display: inline-block;
+	}
+ 
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #fff ;
+	}
+ 
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+ 
+	.isi-dropdown a {
+		color: #3c3c3c ;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323;
+		background: #f3f3f3;
+	}
+body{
+	background-image: url(B.jpg);
+	background-repeat:repeat;
+	height: 80%;
+}
+	html,body{
+		padding: 0;
+		margin:0;
+		font-family: sans-serif;
+	}
+
+td{ 
+	font-size: 20px;
+	color:black;
+}
+
+	table{ 
+		position: relative;
+		margin-top: 10%;
+	}
+ 
+	
+footer{
+background-color: blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    overflow: hidden;
+
+}
